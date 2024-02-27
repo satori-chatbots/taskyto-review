@@ -2,6 +2,10 @@
 
 Taskyto is a chatbot development framework. It is based on describing the tasks that a chatbot needs to perform using the notion of chatbot module. There are several kinds of modules like: menu, data gathering, action, sequence.
 
+## Evaluation (CUI'24)
+
+We have evaluated Taskyto across several dimensions. The results of the evaluation are available in the [evaluation/README.md](here).
+
 ## Usage
 
 To run a specific chatbot there is a script (`main.py`) which is in charge of loading the chatbot and interpret the contents of the yaml files. The yaml files must be located in some folder. For example, `examples/yaml/bike-shop`. Then:
