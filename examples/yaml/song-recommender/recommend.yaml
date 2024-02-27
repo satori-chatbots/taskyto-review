@@ -1,0 +1,13 @@
+name: recommend
+kind: action
+data:
+  - genre: string
+  - language: string
+
+on-success:
+  execute:
+    language: python
+    code: recommender.py
+  response:
+    text: "{{result}}"
+    rephrase: simple

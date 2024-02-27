@@ -1,0 +1,25 @@
+name: session_details
+kind: data_gathering
+description: Useful to provide a price estimation of a photography session. For this, it asks details about the session, including the  type of media, and number and type of artworks
+data:
+  - media:
+      type: enum
+      values:
+        - photography
+        - video
+        - 3D rendering
+  - number_artworks: number
+  - type_artworks:
+      type: enum
+      values:
+        - picture
+        - sculpture
+        - ceramic
+
+on-success:
+  execute:
+    language: python
+    code: |
+      print("Saving details into data-base")
+  response: | 
+    Thanks {name} for giving those details!.

@@ -1,0 +1,19 @@
+name: genres
+kind: data_gathering
+description: Useful for getting song genres and the language of a song.
+data:
+  - genre: string
+  - language:
+      type: enum
+      values:
+        - Spanish
+        - English
+        - French
+
+on-success:
+  execute:
+    language: python
+    code: |
+      print(f"Chosen song genre {genre}, in {language}")
+  response: | 
+    The data {{genre}} in {{language}} has been collected.
