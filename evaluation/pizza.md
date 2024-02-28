@@ -1,7 +1,7 @@
-# Pizza shop chatbot
+# Pizza chatbot interactions in TaskytoTaskyto version
 
 
-## Interaction 1: Order simple
+## [Interaction 1: Order simple](#interaction-1) ([Rasa version](pizza-rasa.md#interaction-1))
 
  * :computer: <code class="chatbot" style="color:red">Hello</code> 
  * :girl:     <span style="color:green">I'd like to order a pizza</span> 
@@ -16,7 +16,7 @@
  * :computer:     <code style="color:red">Alright, I've got your order for coke and sprite. Have a great time with your pizza and beverages!</code> 
  
 
-## Interaction 2: Advance size
+## [Interaction 2: Advance size](#interaction-2) ([Rasa version](pizza-rasa.md#interaction-2))
 
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl:     <span style="color:green">I'd like to order a medium pizza</span> 
@@ -33,7 +33,7 @@
 * :computer: <code class="chatbot" style="color:red">Alright, I've got your order for Sprite. Have a great time with your pizza and beverages!</code> 
 
 
-## Interaction 3: Advance toppings and more
+## [Interaction 3: Advance toppings and more](#interaction-3) ([Rasa version](pizza-rasa.md#interaction-3))
 
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl:     <span style="color:green">Hi, I'm Nick Richards, and I'd like a pizza with olives and cheese</span> 
@@ -48,7 +48,7 @@
 * :computer: <code class="chatbot" style="color:red">Alright, I've got your order for coke and water. Have a great time with your pizza and beverages!</code> 
 * :computer: <code class="chatbot" style="color:red">Alright, I've got your order for coke and water. Have a great time with your pizza and beverages!</code> 
 
-## Interaction 4: Advance toppings and drink
+## [Interaction 4: Advance toppings and drink](#interaction-4) ([Rasa version](pizza-rasa.md#interaction-4))
 
 * :computer: <code class="chatbot">Hello</code>
 * :girl: <span>I'd like a small pizza with ham and cheese, and a coke to drink</span>
@@ -64,7 +64,7 @@
 * :computer: <code class="chatbot" style="color:orange">Alright, your order for coke has been acknowledged. Have a great time with your pizza and beverages!</code>
 
 
-# Interaction 5: Advance drink
+## [Interaction 5: Advance drink](#interaction-5) ([Rasa version](pizza-rasa.md#interaction-5))
 
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl:     <span style="color:green">I'd like a pizza and a coke, please</span> 
@@ -79,7 +79,7 @@
 * :computer: <code class="chatbot" style="color:red">Alright, your order for coke has been acknowledged. Have a great time with your pizza and beverages!</code> 
 * :computer: <code class="chatbot" style="color:red">Alright, your order for coke has been acknowledged. Have a great time with your pizza and beverages!</code> 
 
-# Interaction 6: Going back in the middle of the flow
+## [Interaction 6: Going back in the middle of the flow](#interaction-6) ([Rasa version](pizza-rasa.md#interaction-6))
 
 * :computer: <code class="chatbot">Hello</code> 
 * :girl:     <span>I'm Ann Smith, and I want a medium pizza</span> 
@@ -103,7 +103,8 @@
 * :girl:     <span>yes</span> 
 * :computer: <code class="chatbot">Perfect, Ann Smith. Your order for a large pizza with bacon and a coke has been confirmed. It will be ready shortly. Thank you for ordering from our pizza shop!</code>
 
-# Interaction 7: Change toppings
+## [Interaction 7: Change toppings](#interaction-7) ([Rasa version](pizza-rasa.md#interaction-7))
+
 In this example the chatbot uses the context data provided by the user to construct a natural output: `Hi Mick, ...`
 In addition, the replacement of olives by ham is quite natural.
 
@@ -122,7 +123,7 @@ In addition, the replacement of olives by ham is quite natural.
 * :computer: <code class="chatbot" style="color:red">Alright, your order for coke has been acknowledged. Have a great time with your pizza and beverages!</code> 
 * :girl: <span style="color:green">exit</span> 
 
-# Interaction 8: Confirm toppings
+## [Interaction 8: Confirm toppings](#interaction-8) ([Rasa version](pizza-rasa.md#interaction-8))
 
 * :computer: <code class="chatbot" style="color:red">Hello</code>
 * :girl:     <span style="color:green">I'd like a pizza and a coke, please</span>
@@ -141,7 +142,7 @@ In addition, the replacement of olives by ham is quite natural.
 * :computer: <code class="chatbot" style="color:red">Alright, your order for coke has been acknowledged. Have a great time with your pizza and beverages!</code>
 
 
-# Interaction 9: Complex toppings choice
+## [Interaction 9: Complex toppings choice](#interaction-9) ([Rasa version](pizza-rasa.md#interaction-9))
 
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl:     <span style="color:green">I'd like a medium pizza</span> 
