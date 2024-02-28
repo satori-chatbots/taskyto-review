@@ -6,6 +6,11 @@ Taskyto is a chatbot development framework. It is based on describing the tasks 
 
 We have evaluated Taskyto across several dimensions. The results of the evaluation are available [here](evaluation/README.md).
 
+## Download
+
+Due to the limitation in Anonymous GitHub which does not support cloning the repository, we provide a zip file with the 
+source code. [Download the zip file](taskyto-src.zip) and uncompress in an empty folder.
+
 ## Usage
 
 To run a specific chatbot there is a script (`main.py`) which is in charge of loading the chatbot and interpret the contents of the yaml files. The yaml files must be located in some folder. For example, `examples/yaml/bike-shop`. Then:
