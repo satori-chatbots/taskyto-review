@@ -9,6 +9,7 @@ The list of chatbots with the different interactions can be accessed in the foll
  * Photography 
    - [Taskyto](photography.md) - [implementation](../examples/yaml/photography)
    - [Rasa](photography-rasa.md)
+   - [Rasa (improved)](photography-rasa-v2.md)
  * Pizza shop 
    - [Taskyto](pizza.md) - see [implementation](../examples/yaml/pizza-shop)
    - [Rasa](pizza-rasa.md)
