@@ -3,6 +3,8 @@
 
 ## [Interaction 1: Schedule appointment and ask services](#interaction-1) ([Taskyto version](veterinary.md#interaction-1))
 
+The chatbot does not understand the question about the services offered (this is a defect).
+
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl:     <span style="color:green">Hi</span> 
 * :computer: <code class="chatbot" style="color:red">Welcome to my veterinary center. I'm the owner and I'm happy to help you. What can I do for you?</code> 
@@ -24,6 +26,8 @@
 
 ## Interaction 3: Schedule - Incorrect pet
 
+Fails for the same initial phrase, but with another phrase, it detectes properly that the schedule is for a Sunday.
+
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl:     <span style="color:green">My guinea pig needs to see the vet. Can we schedule an appointment?</span> 
 * :computer: <code class="chatbot" style="color:red">f course, I'd be happy to help you set an appointment. Could you please provide me with the date, time, and the service you need? The services we offer are Physical examination, Vaccination, Dental health and cleaning, and Lab or diagnostic testing.</code> 
@@ -35,6 +39,8 @@
 
 
 ## Interaction 4: Questions and answers
+
+Fails to recognise some sentences
 
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl:     <span style="color:green">What is your schedule at the vet? Can I carry my dwarf elephant on Sunday?</span> 

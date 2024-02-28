@@ -26,6 +26,9 @@
 
 ## [Interaction 3: Schedule appointment asking cost](#interaction-3) ([Taskyto version](bikeshop.md#interaction-3))
 
+The chatbot does not understand the question about the price of a repair.
+
+
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl: <span class="user" style="color:green">i need a repair for my bike</span> 
 * :computer: <code class="chatbot" style="color:red">Thank you for contact us. I can schedule you an appointment in our bike shop for repair your bike. Could you please provide the date and time you would like to bring in your bike? What day do you want to come in?</code> 
@@ -47,6 +50,8 @@
 
 ## [Interaction 5: Schedule assuming a repair](#interaction-5) ([Taskyto version](bikeshop.md#interaction-5))
 
+The chatbot has a defect because it changes 10:00 to 22:00.
+
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl:     <span style="color:green">I want to bring my bike to the shop</span> 
 * :computer: <code class="chatbot" style="color:red">TThank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in? What day do you want to come in?</code> 
@@ -57,6 +62,8 @@
 
 
 ## [Interaction 6: Schedule as soon as possible](#interaction-6) ([Taskyto version](bikeshop.md#interaction-6))
+
+The chatbot does not understand "as soon as possible".
 
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl:     <span style="color:green">I need a repair for my bike</span> 
@@ -69,6 +76,8 @@ What day do you want to come in?</code>
 
 ## [Interaction 7: Q&A about tires](#interaction-7) ([Taskyto version](bikeshop.md#interaction-7))
 
+The chatbot does not understand the question about the price of the tires.
+
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl: <span class="user" style="color:green">i need to change the tires of my bike</span> 
 * :computer: <code class="chatbot" style="color:red">Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?</code> 
@@ -79,6 +88,8 @@ What day do you want to come in?</code>
 
 ## [Interaction 8: Q&A conversation](#interaction-8) ([Taskyto version](bikeshop.md#interaction-8))
 <!-- 8_qa__wrong_too_harsh -->
+
+The chatbot does not understand the first interaction which introduces the goal of the user.
 
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl: <span class="user" style="color:green">I have a few questions about bikes</span> 

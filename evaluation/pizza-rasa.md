@@ -16,6 +16,8 @@
 
 ## [Interaction 2: Advance size](#interaction-2) ([Taskyto version](pizza.md#interaction-2))
 
+It misses the chicken topping the first time the user says the list of toppings (this is a defect, it might be fixed with more training phrases).
+
 *  :girl:     <span style="color:green">I'd like to order a medium pizza</span> 
 *  :computer: <code class="chatbot" style="color:red">Could you please tell me what toppings you would like on your medium pizza? You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives, corn, or chicken.</code> 
 *  :girl:     <span style="color:green">Chicken and ham. Also pepper. And cheese. That's it.</span> 
@@ -41,6 +43,8 @@
 *  :computer: <code class="chatbot" style="color:red">Perfect, your small pizza order with cheese, olives and pepper and coke and water is on its way. Have a great time with your pizza and beverages!</code> 
 
 ## [Interaction 4: Advance toppings and drink](#interaction-4) ([Taskyto version](pizza.md#interaction-4))
+
+The chatbot does not get the drink at the beginning of the interaction.
 
 *  :girl:     <span style="color:green">I'd like a small pizza with ham and cheese, and a coke to drink</span> 
 *  :computer: <code class="chatbot" style="color:red">I'm sorry it's a little loud in my pizza shop, can you say that again?</code> 
@@ -78,6 +82,8 @@
 
 ## [Interaction 7: Change toppings](#interaction-7) ([Taskyto version](pizza.md#interaction-7))
 
+It only adds toppings, it does not allow the user to remove them.
+
 *  :girl:     <span style="color:green">Hi, I'm Mick, and I'd like a pizza with olives and cheese</span> 
 *  :computer: <code class="chatbot" style="color:red">Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.</code> 
 *  :girl:     <span style="color:green">Medium please</span> 
@@ -91,6 +97,8 @@
 
 ## [Interaction 8: Confirm toppings](#interaction-8) ([Taskyto version](pizza.md#interaction-8))
 
+The chatbot does not understand that the user wants the list of available toppings.
+
 *  :girl:     <span style="color:green">I'd like a pizza and a coke, please</span> 
 *  :computer: <code class="chatbot" style="color:red">Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.</code> 
 *  :girl:     <span style="color:green">A medium one</span> 
@@ -103,6 +111,8 @@ What topping do you want?</code>
 
 
 ## [Interaction 9: Complex toppings choice](#interaction-9) ([Taskyto version](pizza.md#interaction-9))
+
+The chatbot does not understand that request to list the vegetarian toppings.
 
 *  :girl:     <span style="color:green">I'd like a medium pizza</span> 
 *  :computer: <code class="chatbot" style="color:red">Could you please tell me what toppings you would like on your medium pizza? You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives, corn, or chicken.</code> 

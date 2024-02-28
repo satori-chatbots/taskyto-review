@@ -70,6 +70,8 @@ In this interaction the day was 21st, and 25th is a Sunday.
 
 ## [Interaction 7: Q&A about tires](#interaction-7) ([Rasa version](bikeshop-rasa.md#interaction-7))
 
+The chatbot is partly hallucinating since it is not able to understand that the user may just want a service and it is in "question and answer" mode.
+
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl: <span class="user" style="color:green">i need to change the tires of my bike</span> 
 * :computer: <code class="chatbot" style="color:red">Sure, I can help you with that. What type of bike do you have?</code> 

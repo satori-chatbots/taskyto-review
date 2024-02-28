@@ -89,7 +89,7 @@
 ## [Interaction 9: Schedule with adapted answer](#interaction-9) ([Taskyto version](photography.md#interaction-9))
 <!-- 9_schedule_rephrase_in_caller -->
 
-*  :girl:     <span style="color:green">I'm John from The Finest Art Gallery at Soho. I need a photo session for tomorrow. It is urgent. Please,
-call me at soon as you can at +01 323 232 233, but it is from 10am to 11pm, contact me via Whatsapp.
-Thanks John! We'll contact you very soon for a session on 29-02-2024</span> 
-*  :computer: <code class="chatbot" style="color:red"></code> 
+*  :girl:     <span style="color:green">I'm John from The Finest Art Gallery at Soho. I need a photo session for tomorrow. It is urgent. Please, call me at soon as you can at +01 323 232 233, but it is from 10am to 11pm, contact me via Whatsapp.</span> 
+*  :computer: <code class="chatbot" style="color:red">Thanks John! We'll contact you very soon for a session on 29-02-2024</code> 
+
+

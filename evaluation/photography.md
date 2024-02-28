@@ -41,6 +41,8 @@
 ## [Interaction 4: Schedule appointment with wrong date](#interaction-4) ([Rasa version](photography-rasa.md#interaction-4))
 <!-- 4_appointment_wrong_date -->
 
+It doesn't validate the date, which is in the past. 
+
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl: <span class="user" style="color:green">I need a photo session</span> 
 * :computer: <code class="chatbot" style="color:red">That's great! To help you better, could you please provide me with more details about the photo session? Like the type of photos you need, the date you prefer for the session, and your contact information including your name and phone number.</code> 

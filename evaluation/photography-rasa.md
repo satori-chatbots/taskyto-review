@@ -14,6 +14,9 @@
 ## [Interaction 2: Schedule appointment advance name and date](#interaction-2) ([Taskyto version](photography.md#interaction-2))
 <!-- 2_schedule_appointment_advance_name_date -->
 
+The chatbot asks for the phone number (which is compulsory) but it could also ask for the e-mail (which is optional) and not asking for it 
+anymore if it is not given (this is a defect).
+
 *  :girl:     <span style="color:green">Hello, my name is Peter Parker, and I need a photo session tomorrow</span> 
 *  :computer: <code class="chatbot" style="color:red">Could you share the phone number where we can contact you?</code> 
 *  :girl:     <span style="color:green">My phone number is 555-635242, and my email is spider@gmail.com</span> 
@@ -22,6 +25,8 @@
 
 ## [Interaction 3: Schedule appointment in several steps](#interaction-3) ([Taskyto version](photography.md#interaction-3))
 <!-- 3_schedule_appointment_steps -->
+
+It asks twice the name (this is a defect).
 
 *  :girl:     <span style="color:green">I need to photograph my art gallery</span> 
 *  :computer: <code class="chatbot" style="color:red">We will contact you by phone, but we need the following information: your name and phone and/or e-mail address and the date you would like to schedule your appointment</code> 
@@ -78,6 +83,9 @@
 
 ## [Interaction 8: Schedule appointment advancing name](#interaction-8) ([Taskyto version](photography.md#interaction-8))
 <!-- 8_schedule_appointment_advance_name2.txt -->
+
+When the user says the name the chatbot goes directly to setting an appointment, which might not be what the user wants.
+Instead, it should greet the user.
 
 *  :girl:     <span style="color:green">Hello, my name is John Smith</span>
 *  :computer: <code class="chatbot" style="color:red">Could you share the phone number where we can contact you?</code> 

@@ -23,7 +23,7 @@
 
 ## Interaction 3: Schedule - Incorrect pet
 
-Two things are incorrect here: The vet specializes in dogs, cats and birds, so it should not take a guinea pig.
+There are two failures. First, the vet specializes in dogs, cats and birds, so it should not take a guinea pig.
 Also, the schedule module is unaware of opening times, so it accepts Sunday as an OK date.
 
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
