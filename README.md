@@ -4,7 +4,7 @@ Taskyto is a chatbot development framework. It is based on describing the tasks 
 
 ## Evaluation (CUI'24)
 
-We have evaluated Taskyto across several dimensions. The results of the evaluation are available in the [evaluation/README.md](here).
+We have evaluated Taskyto across several dimensions. The results of the evaluation are available [here](evaluation/README.md).
 
 ## Usage
 

@@ -1,7 +1,7 @@
 
+# Veterinary chatbot interactions in Taskyto
 
-
-## Interaction 1: Schedule appointment and ask services
+## [Interaction 1: Schedule appointment and ask services](#interaction-1) ([Rasa version](veterinary-rasa.md#interaction-1))
 
 * :computer: <code class="chatbot" style="color:red">Hello</code> 
 * :girl:     <span style="color:green">Hi</span> 
@@ -21,7 +21,7 @@
 * :girl:     <span style="color:green">I'd like an appointment to vaccinate my dog Jumpy tomorrow at 12:00</span> 
 * :computer: <code class="chatbot" style="color:red">Ok, I have received your request to schedule an appointment for 21/02/2024 at 12:00:00 for Vaccination. See you then!</code> 
 
-## Interaction 3: Schedule (incorrect)
+## Interaction 3: Schedule - Incorrect pet
 
 Two things are incorrect here: The vet specializes in dogs, cats and birds, so it should not take a guinea pig.
 Also, the schedule module is unaware of opening times, so it accepts Sunday as an OK date.
